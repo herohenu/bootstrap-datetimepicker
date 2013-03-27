@@ -21,7 +21,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+#提供有中文js
+gem "bootstrap-datetimepicker-rails", "~> 0.0.10"
+##########################另外添加的bootstrap
+gem  'bootstrap-sass'
 
 
 

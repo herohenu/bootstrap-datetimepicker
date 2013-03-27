@@ -13,3 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+//添加日期控件
+//= require bootstrap-datetimepicker
+//= require bootstrap

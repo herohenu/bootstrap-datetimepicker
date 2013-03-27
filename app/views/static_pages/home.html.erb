@@ -1,2 +1,86 @@
 <h1>StaticPages#home</h1>
 <p>Find me in app/views/static_pages/home.html.erb</p>
+
+
+<div class="well">
+  <div id="datetimepicker1" class="input-append date">
+    <input data-format="dd/MM/yyyy hh:mm" type="text"></input>
+    <span class="add-on">
+      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+      </i>
+    </span>
+  </div>
+</div>
+<script type="text/javascript">
+    $(function() {
+        $('#datetimepicker1').datetimepicker({
+            language: 'zh-CN'
+        });
+    });
+</script>
+
+
+<hr>
+<div class="well">
+  <div id="datetimepicker2" class="input-append">
+    <input data-format="MM/dd/yyyy HH:mm:ss PP" type="text"></input>
+    <span class="add-on">
+      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+      </i>
+    </span>
+  </div>
+</div>
+<script type="text/javascript">
+    $(function() {
+        $('#datetimepicker2').datetimepicker({
+            language: 'en',
+            pick12HourFormat: true
+        });
+    });
+</script>
+
+
+<hr>
+<div class="well">
+  <div id="datetimepicker3" class="input-append">
+    <input data-format="hh:mm:ss" type="text"></input>
+    <span class="add-on">
+      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+      </i>
+    </span>
+  </div>
+</div>
+<script type="text/javascript">
+    $(function() {
+        $('#datetimepicker3').datetimepicker({
+            pickDate: false
+        });
+    });
+</script>
+
+
+<hr>
+
+
+<div class="well">
+  <div id="datetimepicker4" class="input-append">
+    <input data-format="yyyy-MM-dd" type="text"></input>
+    <span class="add-on">
+      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+      </i>
+    </span>
+  </div>
+</div>
+<script type="text/javascript">
+    $(function() {
+        $('#datetimepicker4').datetimepicker({
+            pickTime: false
+        });
+    });
+</script>
+
+
+
+<hr>
+
+
